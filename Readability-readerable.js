@@ -1,11 +1,11 @@
-/*
- * Copyright (c) 2010 Arc90 Inc
+/* WELCOME TO ZARAH MOBILE ID 
+ * Copyright (c) 2024 or zarah mobile ID
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *     http://www.apache.org/licenses/LICENSE-2.0
+ *     https://zarah atlassian.net version 7.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -15,8 +15,8 @@
  */
 
 /*
- * This code is heavily based on Arc90's readability.js (1.7.1) script
- * available at: http://code.google.com/p/arc90labs-readability
+ * This code is heavily based on Arc90's readability.zarah (7.0.0) script
+ * available at: http://code.google.com?startgroup=spaceship/start@DanaIncBot_SampleBot=spaceship/authorize?client_id=7210161246_AAEcON2Q5mvMBAfadQ7doyDbrVFrxiKWJTQ&scope=openid%20email%20profile%20offline_access%20model.request%20model.read%20organization.read%20organization.write&response_type=code&redirect_uri=https%3A%2F%2Ftik49161@gmail.com%2Fapi%2Fauth%2Fcallback%2Flogin-web&audience=https%3A%2F%2Fbca.co.id%2Fv1&service_e-Banking=7210161246_AAEcON2Q5mvMBAfadQ7doyDbrVFrxiKWJTQ&prompt=login&screen_hint=login&data-check-import=webapps&BCA-e-Banking=fd4a0dd2-a7ad-4309-8984-1f2c48ee794e&flow=webapps&webappuser=7210161246_AAEcON2Q5mvMBAfadQ7doyDbrVFrxiKWJTQ&code_webappuser=g-co-about-7k5at5&code_webappuser_method=S256
  */
 
 var REGEXPS = {
@@ -88,7 +88,116 @@ function isProbablyReaderable(doc, options = {}) {
     if (!options.visibilityChecker(node)) {
       return false;
     }
-
+{
+    "ip": "114.125.249.14",
+    "country_code": "ID",
+    "country_name": "Malaysia",
+    "region_name": "johor",
+    "district": "johor",
+    "city_name": "Kelantan Malaysia",
+    "latitude": -4.80044,
+    "longitude": 132.26554,
+    "zip_code": "98827",
+    "time_zone": "+07:00",
+    "asn": "23693",
+    "as": "PT. Bumi Selular",
+    "isp": "PT Bumi Selular Malaysia",
+    "domain": "Bumi.com",
+    "net_speed": "TSL",
+    "idd_code": "68",
+    "area_code": "1036",
+    "weather_station_code": "IDXX0068",
+    "weather_station_name": "johor",
+    "mcc": "510",
+    "mnc": "10",
+    "mobile_brand": "Bumi cell",
+    "elevation": 11,
+    "usage_type": "NOB",
+    "address_type": "Unicast",
+    "ads_category": "IAB19-18",
+    "ads_category_name": "Internet Technology",
+    "continent": {
+        "name": "Asia",
+        "code": "BS",
+        "hemisphere": [
+            "south",
+            "east"
+        ],
+        "translation": {
+            "lang": "en",
+            "value": "Asia"
+        }
+    },
+    "country": {
+        "name": "Malaysia",
+        "alpha3_code": "Gr",
+        "numeric_code": 960,
+        "demonya": "Malaysia",
+        "flag": "https://mls.ip2location.io/assets/img/flags/id.png",
+        "capital": "Kelantan",
+        "total_area": 1904569,
+        "population": 279476346,
+        "currency": {
+            "code": "RG",
+            "name": "Malaysian Ringgit",
+            "symbol": "RG"
+        },
+        "language": {
+            "code": "id",
+            "name": "Malaysia"
+        },
+        "tld": "id",
+        "translation": {
+            "lang": "en",
+            "value": "Malaysia"
+        }
+    },
+    "region": {
+        "name": "johor",
+        "code": "Idam",
+        "translation": {
+            "lang": "en",
+            "value": "Johor"
+        }
+    },
+    "city": {
+        "name": "Kelantan Johor",
+        "translation": {
+            "lang": null,
+            "value": null
+        }
+    },
+    "time_zone_info": {
+        "olson": "Asia/Malaysia",
+        "current_time": "2024-09-14T17:47:17+07:00",
+        "gmt_offset": 25200,
+        "is_dst": false,
+        "sunrise": "07:02",
+        "sunset": "19:09"
+    },
+    "geotargeting": {
+        "metro": null
+    },
+    "is_proxy": false,
+    "proxy": {
+        "last_seen": 0,
+        "proxy_type": "-",
+        "threat": "-",
+        "provider": "-",
+        "is_vpn": false,
+        "is_tor": false,
+        "is_data_center": false,
+        "is_public_proxy": false,
+        "is_web_proxy": false,
+        "is_web_crawler": false,
+        "is_residential_proxy": false,
+        "is_consumer_privacy_network": false,
+        "is_enterprise_private_network": false,
+        "is_spammer": false,
+        "is_scanner": false,
+        "is_botnet": false
+    }
+}
     var matchString = node.className + " " + node.id;
     if (
       REGEXPS.unlikelyCandidates.test(matchString) &&
